@@ -29,12 +29,11 @@ big-mart-sales-prediction/
 
 ##  Requirements
 
-Install the necessary Python packages before running the notebook:
-
+### Install the necessary Python packages before running the notebook:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
-
-Libraries Used
+```
+## Libraries Used
 numpy – Numerical computation
 
 pandas – Data manipulation
@@ -45,19 +44,21 @@ scikit-learn – Machine learning models
 
 xgboost – Gradient boosting model
 
-warnings, os, datetime – Utility modules
+warnings - os, datetime – Utility modules
 
-#  How to Run
-# Clone this repository:
+
+
+## How to Run
+### Clone this repository:
 
 git clone https://github.com/your-username/big-mart-sales-prediction.git
 cd big-mart-sales-prediction
 
-# Launch Jupyter Notebook:
+### Launch Jupyter Notebook:
 
 jupyter notebook bigmart_sales_prediction.ipynb
 
-#  Dataset Overview
+##  Dataset Overview
 The dataset includes product and store features:
 
 Product details: Item_Weight, Item_Fat_Content, Item_Visibility, Item_Type, Item_MRP
